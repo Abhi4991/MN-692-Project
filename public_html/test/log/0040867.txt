@@ -1,0 +1,5 @@
+insert into LESSON (coursenum) values (471);
+INSERT INTO TRELLIS (block,daynum,coursenum,lessonnum,lesson_length,tenum,fixed) VALUES (113,206,471,69971,6,1,99);
+UPDATE COURSE set lessonsbooked = lessonsbooked + 1 where coursenum = 471;
+update STCLASS set clused = clused + 1 where stnum = 485 and clnum = 615;
+update ROLL set lessonnum = 69971 WHERE stnum = 485 AND daynum = 206 AND perstart+perlength > 113 and perstart < 119;

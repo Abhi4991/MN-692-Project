@@ -1,0 +1,1 @@
+insert into GROUPTUTORS (tenum,groupnum) values (1,75);

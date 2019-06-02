@@ -1,0 +1,6 @@
+select * from TRELLIS where block+lesson_length > 158 and block < 164 and tenum = 1 and daynum = 208;
+208 158 728;
+208 158 728;
+select * from TRELLIS where block+lesson_length > 113 and block < 119 and tenum = 1 and daynum = 206;
+206 113 471;
+206 113 471;

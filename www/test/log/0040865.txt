@@ -1,0 +1,2 @@
+delete from LESSON where lesson_num = 69764;
+delete from TRELLIS where lessonnum = 69764;

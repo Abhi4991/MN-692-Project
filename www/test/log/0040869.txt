@@ -1,0 +1,18 @@
+insert into COURSE (tutor,lessons,length,description) values (1,1,30,'Kolby Johns');
+insert into COURSELIST (stnum,coursenum) values (503,737);
+insert into STCLASS (stnum,clnum,clavail) values (503,762,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,763,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,764,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,765,3);
+insert into STCLASS (stnum,clnum,clavail) values (503,766,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,767,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,768,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,769,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,770,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,771,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,772,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,773,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,774,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,775,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,776,9);
+insert into STCLASS (stnum,clnum,clavail) values (503,777,9);

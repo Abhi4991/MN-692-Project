@@ -1,0 +1,416 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201809 will be lost/reset.
+# Last config file used to build this data file was /home/antarate/tmp/awstats/awstats.antaratest1.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2684                
+POS_VISITOR 9004                
+POS_DAY 11150               
+POS_DOMAIN 3296                
+POS_LOGIN 3654                
+POS_ROBOT 3809                
+POS_WORMS 4199                
+POS_EMAILSENDER 4330                
+POS_EMAILRECEIVER 4473                
+POS_SESSION 11771               
+POS_SIDER 11918               
+POS_FILETYPES 4608                
+POS_DOWNLOADS 4707                
+POS_OS 4755                
+POS_BROWSER 4999                
+POS_SCREENSIZE 5709                
+POS_UNKNOWNREFERER 5783                
+POS_UNKNOWNREFERERBROWSER 5902                
+POS_ORIGIN 6016                
+POS_SEREFERRALS 6150                
+POS_PAGEREFS 6294                
+POS_SEARCHWORDS 6672                
+POS_KEYWORDS 6824                
+POS_MISC 2348                
+POS_ERRORS 6883                
+POS_CLUSTER 3510                
+POS_SIDER_404 6979                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181001013444 1 0 10373354925627
+FirstTime 20180901063044
+LastTime 20180930155607
+LastUpdate 20181001221400 1 0 0 0 0
+TotalVisits 83                  
+TotalUnique 54                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 54                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 5 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 2182 2 3 2182
+1 4 4 4364 2 4 1091
+2 4 4 2182 9 11 2182
+3 4 4 4364 0 0 0
+4 2 2 2182 3 5 3273
+5 2 2 2182 0 0 0
+6 5 5 5455 2 3 2182
+7 1 1 1091 3 6 22948
+8 7 7 7637 10 13 2182
+9 4 4 4364 2 2 1091
+10 0 0 0 0 0 0
+11 1 1 1091 0 0 0
+12 0 0 0 2 5 20707
+13 10 12 45660 0 1 1150
+14 5 5 5455 19 19 1091
+15 16 16 17456 0 0 0
+16 3 3 3273 3 7 21798
+17 2 2 0 2 3 2182
+18 1 1 1091 2 4 2182
+19 3 5 38023 0 0 0
+20 4 6 39114 3 5 19557
+21 2 2 2182 1 2 1091
+22 5 5 5455 1 2 1091
+23 4 5 21739 6 8 3273
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 62 68 169710
+hu 9 9 9819
+gb 4 4 4364
+ua 4 4 4364
+nl 3 4 20648
+vn 2 2 2182
+gr 2 2 0
+zz 1 1 1091
+cn 1 1 1091
+cl 1 1 1091
+ca 1 1 1091
+kr 1 1 1091
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+Googlebot/ 18 19638 20180930043900 0
+facebookexternalhit/ 8 73864 20180927165433 0
+no_user_agent 3 3273 20180928181550 0
+bingbot/ 3 3273 20180928063223 0
+DomainSONOCrawler/ 2 2182 20180922073714 0
+Uptimebot/ 1 0 20180907080626 0
+curl 1 1091 20180903232727 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 91 94917 0 0
+png 7 121625 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+win7 13 13
+win8.1 5 5
+Unknown 12 6
+winlong 2 2
+linux 8 7
+win8 1 1
+macosx8 1 1
+win2003 1 1
+linuxandroid 1 1
+macosx 1 1
+macosx12 12 12
+win10 36 36
+winme 1 1
+winxp 2 2
+macosx10 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 34
+chrome26.0.1410.63 1 1
+chrome60.0.3112.101 3 3
+msie8.0 1 1
+chrome58.0.3029.81 1 1
+chrome28.0.1464.0 1 1
+msie7.0 1 1
+chrome34.0.1847.114 1 1
+chrome54.0.2840.99 2 2
+firefox52.51.04 1 1
+firefox53.0 1 1
+chrome65.0.3325.181 1 1
+firefox42.0 1 1
+chrome11.0.696.71 2 2
+chrome34.0.1847.116 1 1
+firefox46.0 1 1
+chrome21.0.1180.89 1 1
+msie5.5 1 1
+firefox61.0 9 9
+edge36 1 1
+firefox48.0 1 1
+chrome31.0.1650.57 2 2
+chrome37.0.2049.0 1 1
+chrome66.0.3359.181 23 23
+chrome61.0.3163.100 12 12
+Unknown 12 6
+chrome41.0.2226.0 1 1
+chrome26.0.1410.65 1 1
+chrome63.0.3239.132 2 2
+msie11.0 1 1
+firefox59.0 2 2
+firefox55.0 5 5
+msie6.0 1 1
+chrome60.0.3112.50 2 1
+chrome5.0.375.99 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Chromeless_1.5.2 20180911133347
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Chromeless_1.5.2 20180911133347
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 72 72
+From1 1 1
+From2 0 0
+From3 9 10
+From4 9 15
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+https://brandnewblogs.com/site-browser-new 5 5
+http://greatnewblogs.com 1 1
+https://brandnewblogs.com/blogs-august-2018 1 1
+https://brandnewblogs.com/site-browser 1 1
+https://brandnewblogs.com 1 1
+https://yougotanewdomain.com 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 2 2182
+404 60 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 35
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+//wp-content/plugins/formcraft/file-upload/server/php/ 1 -
+/wysiwyg/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/admin/editor/filemanager/connectors/uploadtest.html 1 -
+/cms/editor/filemanager/connectors/uploadtest.html 1 -
+/js/mage/cookies.js 1 antaratest1.com
+/robots.txt 20 -
+//smiley/1.gif 1 -
+/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/ckeditor/filemanager/connectors/uploadtest.html 1 -
+/installer.php 1 -
+/plugins/p_fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/js/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/editor/editor/filemanager/connectors/uploadtest.html 1 -
+/admin/editor/editor/filemanager/connectors/uploadtest.html 1 -
+/administrator/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/cms/editor/filemanager/connectors/uploadtest404.html 1 -
+//blog/ 2 http://antaratest1.com/
+/cms/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+//rss.xml 1 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/editor/filemanager/connectors/uploadtest.html 1 -
+/sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/editor/editor/filemanager/upload/test.html 1 -
+/ 6 -
+/blog/ 1 http://antaratest1.com/blog/
+/admin/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/xmlrpc.php 1 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/HTMLEditor/editor/filemanager/connectors/uploadtest.html 1 -
+/blog/wp-includes/wlwmanifest.xml 1 -
+//wp-content/plugins/formcraft/file-upload/server/php/files/ptseo.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 54
+52.53.201.78 12 12 13092 20180930054037
+35.162.141.144 7 7 7637 20180924134729
+52.37.211.217 5 5 5455 20180922140059
+94.21.145.177 5 5 5455 20180928151117
+35.162.214.175 5 5 5455 20180923135314
+163.172.4.153 3 3 3273 20180914224911
+104.239.149.11 2 2 2182 20180909095339
+178.128.94.53 2 2 0 20180926174758
+23.80.147.25 2 2 2182 20180910050615
+118.69.108.71 2 2 2182 20180920084111
+209.126.106.147 2 2 2182 20180901134823
+167.99.98.182 2 2 0 20180924023529
+34.222.239.171 1 1 1091 20180926032526
+185.14.195.209 1 1 1091 20180913211823
+188.72.108.192 1 1 1091 20180915224538
+167.114.55.122 1 1 1091 20180909082503
+54.245.192.127 1 2 18466 20180910190750
+34.212.136.252 1 2 18466 20180907202413
+198.71.84.141 1 1 1091 20180907143633
+172.255.82.111 1 1 1091 20180914110231
+176.56.224.115 1 2 18466 20180903232731
+206.180.165.147 1 1 1091 20180920043128
+54.160.88.44 1 1 1091 20180926231933
+34.221.21.2 1 2 18466 20180907202802
+35.165.183.35 1 1 1091 20180930155607
+62.165.226.224 1 1 1091 20180923081644
+46.101.80.192 1 1 1091 20180920151434
+54.190.149.132 1 1 1091 20180926144207
+91.90.192.195 1 1 1091 20180928180710
+52.40.233.113 1 2 18466 20180911133205
+89.249.64.138 1 1 1091 20180917234557
+104.218.164.55 1 1 1091 20180919233421
+62.149.29.58 1 1 1091 20180917201511
+120.35.38.227 1 1 1091 20180914224552
+34.213.163.153 1 1 1091 20180928145412
+175.196.127.153 1 1 1091 20180923073253
+84.236.87.66 1 1 1091 20180901063044
+34.215.137.204 1 2 18466 20180911133347
+18.237.195.80 1 1 1091 20180917000238
+18.237.243.183 1 1 1091 20180929133329
+91.210.145.148 1 1 1091 20180929011614
+206.223.242.73 1 1 1091 20180921164229
+178.164.146.203 1 1 1091 20180915081227
+54.245.198.24 1 1 1091 20180909033613
+108.61.47.186 1 1 1091 20180916022451
+18.236.159.53 1 1 1091 20180914155107
+38.100.21.66 1 1 1091 20180914062845
+52.89.173.194 1 2 18466 20180910190654
+89.147.68.80 1 1 1091 20180912210546
+52.50.98.213 1 1 1091 20180914015004
+35.161.250.114 1 1 1091 20180928024132
+216.145.11.94 1 1 1091 20180911015156
+216.145.5.42 1 1 1091 20180929062411
+191.96.253.70 1 1 1091 20180928192549
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20180901 3 3 3273 2
+20180903 1 2 18466 1
+20180904 1 1 1091 1
+20180906 1 1 1091 1
+20180907 5 7 40205 5
+20180908 3 3 3273 3
+20180909 4 4 4364 4
+20180910 3 5 38023 3
+20180911 5 7 40205 5
+20180912 4 4 4364 4
+20180913 2 2 2182 2
+20180914 8 8 8728 8
+20180915 3 3 3273 3
+20180916 3 3 3273 3
+20180917 4 4 4364 4
+20180918 2 2 2182 2
+20180919 2 2 2182 2
+20180920 5 5 5455 4
+20180921 3 3 3273 3
+20180922 1 1 1091 1
+20180923 4 4 4364 4
+20180924 3 3 1091 2
+20180925 1 1 1091 1
+20180926 5 5 3273 4
+20180927 1 1 1091 1
+20180928 9 9 9819 5
+20180929 3 3 3273 3
+20180930 2 2 2182 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 83
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 91 94917 83 83
+END_SIDER

@@ -1,0 +1,19 @@
+body
+{
+background-color:#FFFFCC;
+}
+h1
+{
+h1 {font-size:2.5em;} /* 40px/16=2.5em */
+}
+h2
+{
+color:blue;font-size:36pt;
+}
+p
+{
+color:red;
+text-align:center;
+font-size:64pt;
+
+}

@@ -1,0 +1,3 @@
+update STCLASS set clused = clused - 1 where stnum = 485 and clnum = 615;
+delete from LESSON where lesson_num = 69771;
+delete from TRELLIS where lessonnum = 69771;

@@ -1,0 +1,48 @@
+[08-Aug-2018 16:14:35 Australia/Brisbane] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'antarate_login'@'localhost' to database 'rollcal1_schdoms' in /home/antarate/public_html/test/index.php on line 10
+[08-Aug-2018 16:14:35 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 21
+[08-Aug-2018 16:14:35 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 23
+[08-Aug-2018 16:14:35 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 26
+[08-Aug-2018 16:14:35 Australia/Brisbane] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/antarate/public_html/test/index.php on line 28
+[08-Aug-2018 16:14:35 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 45
+[08-Aug-2018 16:14:35 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 47
+[08-Aug-2018 16:14:35 Australia/Brisbane] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 50
+[08-Aug-2018 16:16:01 Australia/Brisbane] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'antarate_login'@'localhost' to database 'rollcal1_schdoms' in /home/antarate/public_html/test/index.php on line 10
+[08-Aug-2018 16:16:01 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 21
+[08-Aug-2018 16:16:01 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 23
+[08-Aug-2018 16:16:01 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 26
+[08-Aug-2018 16:16:01 Australia/Brisbane] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/antarate/public_html/test/index.php on line 28
+[08-Aug-2018 16:16:01 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 45
+[08-Aug-2018 16:16:01 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 47
+[08-Aug-2018 16:16:01 Australia/Brisbane] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 50
+[08-Aug-2018 16:19:00 Australia/Brisbane] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'antarate_login'@'localhost' to database 'rollcal1_schdoms' in /home/antarate/public_html/test/index.php on line 10
+[08-Aug-2018 16:19:00 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 21
+[08-Aug-2018 16:19:00 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 23
+[08-Aug-2018 16:19:00 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 26
+[08-Aug-2018 16:19:00 Australia/Brisbane] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/antarate/public_html/test/index.php on line 28
+[08-Aug-2018 16:19:00 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 45
+[08-Aug-2018 16:19:00 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 47
+[08-Aug-2018 16:19:00 Australia/Brisbane] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 50
+[08-Aug-2018 16:21:30 Australia/Brisbane] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'antarate_login'@'localhost' to database 'rollcal1_schdoms' in /home/antarate/public_html/test/index.php on line 10
+[08-Aug-2018 16:21:30 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 21
+[08-Aug-2018 16:21:30 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 23
+[08-Aug-2018 16:21:30 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 26
+[08-Aug-2018 16:21:30 Australia/Brisbane] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/antarate/public_html/test/index.php on line 28
+[08-Aug-2018 16:21:30 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 45
+[08-Aug-2018 16:21:30 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 47
+[08-Aug-2018 16:21:30 Australia/Brisbane] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 50
+[08-Aug-2018 16:25:32 Australia/Brisbane] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'antarate_login'@'localhost' to database 'rollcal1_schdoms' in /home/antarate/public_html/test/index.php on line 10
+[08-Aug-2018 16:25:32 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 21
+[08-Aug-2018 16:25:32 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 23
+[08-Aug-2018 16:25:32 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 26
+[08-Aug-2018 16:25:32 Australia/Brisbane] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/antarate/public_html/test/index.php on line 28
+[08-Aug-2018 16:25:32 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 45
+[08-Aug-2018 16:25:32 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 47
+[08-Aug-2018 16:25:32 Australia/Brisbane] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 50
+[08-Aug-2018 16:27:54 Australia/Brisbane] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'antarate_login'@'localhost' to database 'antrate_schdoms' in /home/antarate/public_html/test/index.php on line 10
+[08-Aug-2018 16:27:54 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 21
+[08-Aug-2018 16:27:54 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 23
+[08-Aug-2018 16:27:54 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 26
+[08-Aug-2018 16:27:54 Australia/Brisbane] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/antarate/public_html/test/index.php on line 28
+[08-Aug-2018 16:27:54 Australia/Brisbane] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 45
+[08-Aug-2018 16:27:54 Australia/Brisbane] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 47
+[08-Aug-2018 16:27:54 Australia/Brisbane] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/antarate/public_html/test/index.php on line 50

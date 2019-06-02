@@ -1,0 +1,103 @@
+CREATE TABLE ELEMENT (level tinyint(4),parent varchar(100),ename   varchar(30),evalue varchar(500),att1 varchar(100),atv1 varchar(100),att2 varchar(100),atv2 varchar(100),att3 varchar(100),atv3 varchar(100),att4 varchar(100),atv4 varchar(100));<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(1,'','catalog','','','','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk101','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','author','Gambardella, Matthew','id','bk101','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Computer','id','bk101','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','44.95','id','bk101','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2000-10-01','id','bk101','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','description','An in-depth look at creating applications 
+      with XML.','id','bk101','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk102','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','author','Ralls, Kim','id','bk102','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','title','Midnight Rain','id','bk102','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Fantasy','id','bk102','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','5.95','id','bk102','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2000-12-16','id','bk102','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','description','A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world.','id','bk102','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk103','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','author','Corets, Eva','id','bk103','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','title','Maeve Ascendant','id','bk103','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Fantasy','id','bk103','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','5.95','id','bk103','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2000-11-17','id','bk103','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','description','After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.','id','bk103','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk104','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','author','Corets, Eva','id','bk104','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Fantasy','id','bk104','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','5.95','id','bk104','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2001-03-10','id','bk104','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','description','In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.','id','bk104','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk105','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','author','Corets, Eva','id','bk105','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','title','The Sundered Grail','id','bk105','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Fantasy','id','bk105','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','5.95','id','bk105','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2001-09-10','id','bk105','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk106','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','author','Randall, Cynthia','id','bk106','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','title','Lover Birds','id','bk106','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Romance','id','bk106','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','4.95','id','bk106','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2000-09-02','id','bk106','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','description','When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled.','id','bk106','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk107','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','author','Thurman, Paula','id','bk107','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','title','Splish Splash','id','bk107','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Romance','id','bk107','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','4.95','id','bk107','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2000-11-02','id','bk107','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','description','A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea.','id','bk107','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk108','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','author','Knorr, Stefan','id','bk108','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','title','Creepy Crawlies','id','bk108','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Horror','id','bk108','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','4.95','id','bk108','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2000-12-06','id','bk108','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','description','An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects.','id','bk108','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk109','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','author','Kress, Peter','id','bk109','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','title','Paradox Lost','id','bk109','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Science Fiction','id','bk109','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','6.95','id','bk109','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2000-11-02','id','bk109','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','description','After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum.','id','bk109','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk110','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','title','Microsoft .NET: The Programming Bible','id','bk110','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Computer','id','bk110','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','36.95','id','bk110','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2000-12-09','id','bk110','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk111','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','title','MSXML3: A Comprehensive Guide','id','bk111','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Computer','id','bk111','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','36.95','id','bk111','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2000-12-01','id','bk111','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','description','The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more.','id','bk111','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(2,'catalog','book','
+      
+      
+      
+      
+      
+      
+   ','id','bk112','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','author','Galos, Mike','id','bk112','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','title','Visual Studio 7: A Comprehensive Guide','id','bk112','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','genre','Computer','id','bk112','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','price','49.95','id','bk112','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','publish_date','2001-04-16','id','bk112','','','','','','');<BR>insert into ELEMENT (level,parent,ename,evalue,att1,atv1,att2,atv2,att3,atv3,att4,atv4) values <BR>(3,'book','description','Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment.','id','bk112','','','','','','');<BR>

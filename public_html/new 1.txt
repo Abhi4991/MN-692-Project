@@ -1,0 +1,195 @@
+<?php
+include 'opendb.php';
+include 'rollgen.php';
+include 'dbstuff.php';
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+writehead("LESSON actions",$conn,"lessonactions",0);
+
+$lessonnum = $_POST['sel'];
+
+echo "<FORM METHOD=\"POST\" actions=\"lessonaction2.php\">";
+
+$tenum = sessinfo($conn,'tenum');
+
+$sql = "select * from TRELLIS where tenum = ".$tenum." and lessonnum = ".$lessonnum;
+
+ $trellisdata = qry($conn,$sql);
+ 
+  while ($trellis = arr($trellisdata))
+	  
+	{
+		$lessondate = daydate($conn,$trellis['daynum']);
+		$lessontime = daytime($conn,$trellis['block']);
+	}
+	  
+$sql = " select * from LESSON where lesson_num = ".$lessonnum;
+
+ $result = qry($conn,$sql);
+  
+ while ($lesson_array = arr($result))
+	  {
+		$coursenum = $lesson_array['coursenum'];
+		$lcomments = $lesson_array['lcomments'];
+		$attendance = $lesson_array['attendance'];
+		$actions = $lesson_array['actions'];
+	  }
+	  
+	//  echo "course num ".$coursenum;
+	  
+$sql = "select description from COURSE where coursenum = ".$coursenum;
+		
+			$cor = qry($conn,$sql);
+		
+		while ($co_array = arr($cor))
+		{
+	
+		divmaker(15,0,60,10,"white","blue","1","
+	text-align: center;" ,"<h200>Lesson for: ".$co_array['description']." ".$lessondate." ".$lessontime."</h200>");
+ 
+		}
+		
+$check = array("","","","","","","","","","","");
+
+$check[$attendance] = "checked";
+
+//$other = array("","","","");
+
+//$other[$actions] = "checked";
+
+echo "<input type =\"hidden\" name = \"lesnum\" value = \"".$lessonnum."\">";
+
+bmaker(False,10,15,20,7,"label","","","","disabled","<h200>Comments:</h200>");
+
+$width = sessinfo($conn,'swidth');
+
+if ($width > 700)
+{	
+$col = 40;
+}
+if ($width > 1000)
+{	
+$col = 60;
+}
+if ($width > 1200)
+{	
+$col = 70;
+}
+if ($width > 1400)
+{	
+$col = 80;
+}
+if ($width > 1600)
+{	
+$col = 90;
+}
+if ($width > 1800)
+{	
+$col = 100;
+}
+
+bmaker(False,10,25,50,30,"label","","","","disabled","<h200><textarea rows=\"10\" cols=\"".$col."\" name=\"lcomments\">".$lcomments."</textarea></h200>");
+
+ bmaker(False,60,15,20,7,"label","","","","disabled","<h200>Attendance:</h200>");
+ 
+ 
+ 
+/*
+
+echo "<section id=\"accordion\">";
+
+$content =  "<input type=\"radio\" name=\"attendance\" value=\"0\" id=\"option-1\" ".$check[0]."/><label for=\"option-1\"><h150>Unmarked</h150></label>";
+
+divmaker(60,30,20,5,"white","blue","1","
+text-align: left;" 
+,$content);
+
+$content =  "<input type=\"radio\" name=\"attendance\" value=\"1\"  id=\"option-2\" ".$check[1]."/><label  for=\"option-2\"><h150>Present</h150></label>";
+
+divmaker(60,40,20,5,"white","blue","1","text-align: left;" 
+,$content);
+
+$content =  "<input type=\"radio\" name=\"attendance\" value=\"2\"  id=\"option-3\" ".$check[2]."/><label  for=\"option-3\"><h150>Absent Without Notice</h150></label>";
+
+divmaker(60,50,20,5,"white","blue","1","text-align: left;" 
+,$content);
+
+$content =  "<input type=\"radio\" name=\"attendance\" value=\"3\"  id=\"option-4\" ".$check[3]."/><label  for=\"option-4\"><h150>Absent School Activity</h150></label>";
+
+divmaker(60,60,20,5,"white","blue","1","text-align: left;" 
+,$content);
+
+$content =  "<input type=\"radio\" name=\"attendance\" value=\"4\"  id=\"option-5\" ".$check[4]."/><label  for=\"option-5\"><h150>Absent With Notice</h150></label>";
+
+divmaker(60,70,20,5,"white","blue","1","
+text-align: left;" 
+,$content);
+
+$content =  "<input type=\"radio\" name=\"attendance\" value=\"5\"  id=\"option-6\" ".$check[5]."/><label  for=\"option-6\"><h150>Tutor Absent</h150></label>";
+
+divmaker(60,80,20,5,"white","blue","1","text-align: left;" 
+,$content);
+
+$content =  "<input type=\"radio\" name=\"attendance\" value=\"6\"  id=\"option-7\" ".$check[6]."/><label  for=\"option-7\"><h150>Absent Extra Lesson</h150></label>";
+
+divmaker(60,90,20,5,"white","blue","1","text-align: left;" 
+,$content);
+
+echo "</section>";
+
+echo "<section id=\"accordion\">";
+
+$content =  "<input type=\"radio\" name=\"other\" value=\"1\" id=\"actions-1\" ".$other[1]."/><label for=\"actions-1\"><h150>Late</h150></label>";
+
+divmaker(10,60,20,5,"white","blue","1","font-size: 100%;
+text-align: left;" 
+,$content);
+
+$content =  "<input type=\"radio\" name=\"other\" value=\"2\"  id=\"actions-2\" ".$other[2]."/><label  for=\"actions-2\"><h150>Fetched</h150></label>";
+
+divmaker(10,70,20,5,"white","blue","1","font-size: 100%;
+text-align: left;" 
+,$content);
+
+echo "</section>";
+*/
+
+echo "<input type=\"hidden\" name = \"other\" value = \"0\" >";
+
+$content = "<button type=\"submit\" value = \"".$lessonnum."\" name = \"sel\" >";
+	
+$content .= 	"Save Lesson</button>";
+
+divmaker(70,00,15,10,"white","blue","1","font-size: 150%;
+text-align: center;" 
+,$content);
+
+echo "</form>";
+
+echo "<FORM METHOD=\"POST\" actions=\"lessondel.php\">";
+
+$content = "<button type=\"submit\" value = \"".$lessonnum."\" name = \"sel\" >";
+	
+$content .= 	"Delete Lesson</button>";
+
+divmaker(85,00,15,10,"white","blue","1","
+text-align: center;" 
+,$content);
+
+echo "</form>";
+
+
+echo "<FORM METHOD=\"POST\" actions=\"timetable.php\">";
+
+divmaker(0,0,15,10,"white","blue","1","
+text-align: center;position: fixed;" 
+,"<button type=\"submit\"><h150>Timetable</h150></button>");
+
+echo "</FORM>\n";
+
+echo "</body>
+</html>";
+
+?>

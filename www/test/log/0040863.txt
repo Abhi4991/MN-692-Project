@@ -1,0 +1,1 @@
+INSERT INTO AVAILABILITY (daynum,startblock,duration,tenum) VALUES (1,121,72,1);

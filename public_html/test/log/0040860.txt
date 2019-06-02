@@ -1,0 +1,2 @@
+update USERS set first_name = 'Andy',last_name = 'Dowell',USER_NAME = 'aadmin',P_WORD = '$2y$11$ee7ffe733c76d88733596uToGhaAOpFfpQvzlLfE65XUF2eTtKn1y' where tenum =  1;
+update TUTOR set first_name = 'Andy',last_name = 'Dowell' where tenum =  1;

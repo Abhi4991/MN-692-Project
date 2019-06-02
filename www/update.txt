@@ -1,0 +1,103 @@
+ALTER TABLE  `TIMES` ADD  `hourdisplay` VARCHAR( 2 ) NOT NULL ;
+
+ALTER TABLE  `TIMES` ADD  `ampm` VARCHAR( 2 ) NOT NULL 
+update TIMES set hourdisplay = substring(timedisplay,1,2) where length(timedisplay) = 8;
+update TIMES set hourdisplay = substring(timedisplay,1,1) where length(timedisplay) = 7;
+
+update TIMES set ampm = substring(timedisplay,-2) where length(timedisplay) = 8;
+
+CREATE TABLE IF NOT EXISTS `AVAILABILITY` (
+  `startblock` mediumint(9) NOT NULL,
+  `daynum` smallint(6) NOT NULL,
+  `availnum` mediumint(9) NOT NULL AUTO_INCREMENT,
+  `duration` smallint(6) NOT NULL,
+  `tenum` smallint(6) NOT NULL,
+  PRIMARY KEY (`availnum`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+CREATE INDEX tenum
+ON AVAILABILITY (tenum);
+
+CREATE INDEX startblock
+ON AVAILABILITY (startblock);
+
+CREATE INDEX daynum
+ON AVAILABILITY (daynum);
+
+
+// run on test
+
+CREATE TABLE IF NOT EXISTS `GROUP` (
+  `groupnum` mediumint(9) NOT NULL AUTO_INCREMENT,
+  `description` varchar(100) NOT NULL,
+  PRIMARY KEY (`groupnum`),
+  KEY `groupnum` (`groupnum`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1
+
+CREATE INDEX groupnum
+ON GROUP (groupnum);
+
+CREATE TABLE IF NOT EXISTS `GROUPLIST` (
+  `stnum` int(9) NOT NULL,
+  `groupnum` int(9) NOT NULL
+  
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE INDEX groupnum
+ON GROUPLIST (groupnum);
+
+CREATE TABLE IF NOT EXISTS `GROUPTUTORS` (
+  `tenum` int(9) NOT NULL,
+  `groupnum` int(9) NOT NULL
+  
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE INDEX groupnum
+ON GROUPTUTORS (groupnum);
+
+CREATE INDEX tenum
+ON GROUPTUTORS (tenum);
+
+CREATE TABLE IF NOT EXISTS `GROUPBOOKING` (
+  `groupbookingnum` mediumint(9) NOT NULL AUTO_INCREMENT,
+  `Description` varchar(50) NOT NULL,
+  `groupnum` mediumint(9) NOT NULL,
+  `gcomments` text NOT NULL,
+  PRIMARY KEY (`groupbookingnum`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+CREATE INDEX groupbookingnum
+ON GROUPBOOKING (groupbookingnum);
+
+CREATE TABLE IF NOT EXISTS `GROUPBOOKINGLIST` (
+  `stnum` int(9) NOT NULL,
+  `groupbookingnum` int(9) NOT NULL,
+  `attendance` tinyint(4)
+  
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE INDEX groupbookingnum
+ON GROUPBOOKINGLIST (groupbookingnum);
+
+CREATE TABLE IF NOT EXISTS `GROUPBOOKINGTUTORS` (
+  `tenum` int(9) NOT NULL,
+  `groupbookingnum` int(9) NOT NULL
+  
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE INDEX groupbookingnum
+ON GROUPBOOKINGTUTORS (groupbookingnum);
+
+CREATE INDEX tenum
+ON GROUPBOOKINGTUTORS (tenum);
+
+ALTER TABLE  `SESSINFO` ADD  `tempnum` MEDIUMINT NOT NULL ;
+
+RENAME TABLE  `rollcal1_test`.`GROUP` TO  `rollcal1_test`.`GROUPS` ;
+
+ALTER TABLE  `TRELLIS` ADD  `groupnum` MEDIUMINT NOT NULL AFTER  `coursenum` ,
+ADD  `groupsessionnum` MEDIUMINT NOT NULL AFTER  `groupnum` ;
+
+ALTER TABLE  `TRELLIS` CHANGE  `groupsessionnum`  `groupbookingnum` MEDIUMINT( 9 ) NOT NULL ;
+
+

@@ -1,0 +1,1 @@
+insert into GROUPS (description) values ('cello club');

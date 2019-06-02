@@ -1,0 +1,1 @@
+insert into GROUPBOOKINGSTUDENTS (stnum,groupbookingnum,attendance) values (295,979,1);

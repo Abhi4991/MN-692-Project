@@ -1,0 +1,2 @@
+insert into GROUPBOOKING (groupnum) values (23);
+INSERT INTO TRELLIS (block,daynum,groupnum,groupbookingnum,lesson_length,fixed) VALUES (123,206,23,1015,10,1);
